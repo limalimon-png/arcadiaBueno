@@ -429,6 +429,31 @@ h6 {
     background-color: hsla(0, 0%, 100%, .04);
 }
 
+@media (max-width: 500px) {
+    #hero {
+        position: static;
+        width: 100%;
+        max-width: 1296px;
+        margin: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+    }
+    
+    .container-Hero {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 24px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: hsla(0, 0%, 100%, .04);
+    }
+
+}
+
+
+
 .contenidoHero {
     width: 100%;
     max-width: 964px;
@@ -1195,6 +1220,20 @@ section {
     margin-top: 100px;
 }
 
+@media (max-width: 500px) {
+    #team {
+        width: 100%;
+        margin: auto;
+        background-color: #232324;
+        margin-top: 100px;
+    }
+    .team .member .pic {
+        overflow: hidden;
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
 .team .member {
     position: relative;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1780,6 +1819,19 @@ section {
     font-size: 15px;
     color: #fff;
     margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    #footer .footer-newsletter {
+        width: 100%;
+        margin: auto;
+        padding: 50px 0;
+        background-color: #232324;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
 }
 
 #footer .footer-newsletter h4 {
