@@ -1218,6 +1218,7 @@ section {
     margin: auto;
     background-color: #232324;
     margin-top: 100px;
+    
 }
 
 
@@ -1229,16 +1230,22 @@ section {
     border-radius: 5px;
     background: #131314;
     transition: 0.5s;
+
 }
 
 .miembros {
     color: #a1a1a3;
+    
+}
+.member-parraf{
+    text-align: start;
 }
 
 .team .member .pic {
     overflow: hidden;
     max-width: 100px;
     border-radius: 50%;
+   
 }
 
 .team .member .pic img {
@@ -1256,7 +1263,7 @@ section {
         overflow: hidden;
         width: 700px;
         border-radius: 50%;
-        border: red;
+    
         
         
     }
@@ -1267,8 +1274,12 @@ section {
 }
 
 .team .member .member-info {
+
     padding-left: 30px;
+    padding-top: 3%;
+  
 }
+
 
 .team .member h4 {
     font-weight: 700;
