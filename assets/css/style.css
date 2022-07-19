@@ -39,7 +39,7 @@ h6 {
 }
 
 .tituloPequeño {
-    color: #2fc29d;
+    color: #fef807;
 }
 
 
@@ -429,6 +429,7 @@ h6 {
     background-color: hsla(0, 0%, 100%, .04);
 }
 
+
 @media (max-width: 500px) {
     #hero {
         position: static;
@@ -440,6 +441,7 @@ h6 {
         -webkit-perspective: 500px;
         perspective: 500px;
     }
+    
     
     .container-Hero {
         position: relative;
@@ -472,7 +474,7 @@ h6 {
 
 #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
@@ -612,7 +614,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #39ffcb;
+    color: #fef807;
 }
 
 .section-title .magenta {
@@ -695,6 +697,18 @@ section {
         background-color: #232324;
         margin-top: 80px;
     }
+}
+
+
+@media (max-width: 500px) {
+    #about {
+        width: 100%;
+        margin: auto;
+        background-color: #232324;
+        margin-top: 100px;
+    }
+      
+    
 }
 
 .about .content h3 {
@@ -1235,6 +1249,7 @@ section {
 
 .miembros {
     color: #a1a1a3;
+    font-size: 20px;
     
 }
 .member-parraf{
@@ -1285,7 +1300,7 @@ section {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #39ffcb;
+    color: #fef807;
 }
 
 .team .member span {
@@ -1297,14 +1312,14 @@ section {
 }
 
 .team .member span::after {
-    content: '';
+    /* content: '';
     position: absolute;
     display: block;
     width: 50px;
     height: 1px;
     background: #cbd6e9;
     bottom: 0;
-    left: 0;
+    left: 0; */
 }
 
 .team .member p {
@@ -2024,3 +2039,51 @@ section {
         padding-top: 4px;
     }
 }
+
+
+/*  Corporaciones    */
+.button-32 {
+    background-color: #fff000;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 50px !important;
+    padding: auto;
+  
+  }
+  
+  .button-32:not(:disabled):hover,
+  .button-32:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  }
+  
+  .button-32:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }
+
+
+  .subtittle{
+    font-size: 30px;
+  }
+
+  .btnletra{
+    background-color: transparent;
+    border: transparent;
+    color: #fef807;
+  }
